@@ -1,0 +1,89 @@
+﻿<Window x:Class = "Laundry.MainWindow"
+        xmlns = "http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x = "http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d = "http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc = "http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local = "clr-namespace:Laundry"
+        mc:Ignorable = "d"
+        Title = "Калькулятор вычесления веса стирки" Height = "450" Width = "800" >
+
+    <Grid ShowGridLines = "True">
+
+        <Grid.Background>
+            <ImageBrush ImageSource = "C:\Users\PC_PRO\Desktop\1.jpeg" />
+        </Grid.Background>
+
+        <Grid.ColumnDefinitions >
+            <ColumnDefinition Width = "743*" />
+            <ColumnDefinition Width = "57*" />
+        </Grid.ColumnDefinitions>
+
+                <Label
+                   Margin = "44,-3,558,380"
+                   FontSize = "20"
+                   FontFamily = "Cascadia Code"
+                   Foreground = "DarkBlue" Background = "#FFBFFDC0" >Вид белья</Label >
+
+
+                <Label Content = "Количество"
+                   Margin = "211,-3,388,380"
+                   FontSize = "20"
+                   FontFamily = "Cascadia Code"
+                   Foreground = "DarkBlue" Background = "#FF01BFFF" ></Label >
+
+
+                <Button Click = "formgo_Click"
+                    Content = "Рассчитать"
+                    x:Name = "formgo"
+                    Margin = "477,2,112,380"
+                    FontSize = "20"
+                   FontFamily = "Cascadia Code"
+                   Foreground = "DarkBlue" Background = "#FFBFFDC0" />
+
+
+                <Label Content = ""
+                   Name = "otvet"
+                   Margin = "400,69,10,252"
+                   FontSize = "20"
+                   FontFamily = "Cascadia Code"
+                   Foreground = "DarkBlue" Grid.ColumnSpan = "2" />
+
+
+
+
+
+        <ComboBox Name = "cb1" Margin = "45,63,558,318"  MinWidth = "100" Background = "#FF562A2A" />
+
+        <ComboBox Name = "cb2" Margin = "44,126,558,256" MinWidth = "100" />
+
+        <ComboBox Name = "cb3" Margin = "45,187,558,195" MinWidth = "100" />
+
+        <ComboBox Name = "cb4" Margin = "44,251,558,127" MinWidth = "100" />
+
+        <ComboBox Name = "cb5" Margin = "44,316,558,65" MinWidth = "100" />
+
+        <ComboBox Name = "cb6" Margin = "400,187,189,197" MinWidth = "100" />
+
+        <ComboBox Name = "cb7" Margin = "400,251,189,127" MinWidth = "100" />
+
+        <ComboBox Name = "cb8" Margin = "400,316,189,65" MinWidth = "100" />
+
+        <ComboBox Name = "cb9" Margin = "45,379,558,0" MinWidth = "100" />
+
+        <ComboBox Name = "cb10" Margin = "400,379,189,0" MinWidth = "100" />
+
+
+        <TextBox x:Name="tb1" Margin = "210,63,388,318" />
+        <TextBox x:Name="tb2" Margin = "211,126,388,256" />
+        <TextBox x:Name = "tb3" Margin = "210,187,388,195" />
+        <TextBox x:Name = "tb4" Margin = "211,251,388,136" />
+        <TextBox x:Name = "tb5" Margin = "211,316,388,65" />
+        <TextBox x:Name = "tb6" Margin = "210,379,388,0" />
+        <TextBox x:Name = "tb7" Margin = "580,187,21,195" />
+        <TextBox x:Name = "tb8" Margin = "580,244,21,136" />
+        <TextBox x:Name = "tb9" Margin = "580,316,21,65" />
+        <TextBox x:Name = "tb10" Margin = "580,379,21,0" />
+
+
+    </Grid>
+</Window>
