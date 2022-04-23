@@ -14,75 +14,75 @@
         </Grid.Background>
 
         <Grid.ColumnDefinitions >
-            <ColumnDefinition Width = "743*" />
-            <ColumnDefinition Width = "57*" />
+            <ColumnDefinition />
+            <ColumnDefinition Width="0*" />
         </Grid.ColumnDefinitions>
 
-                <Label
-                   Margin = "44,-3,558,380"
+        <Label
+                   Margin = "44,-3,609,380"
                    FontSize = "20"
                    FontFamily = "Cascadia Code"
                    Foreground = "DarkBlue" Background = "#FFBFFDC0" >Вид белья</Label >
 
 
-                <Label Content = "Количество"
-                   Margin = "211,-3,388,380"
+        <Label Content = "Количество"
+                   Margin = "236,-3,415,380"
                    FontSize = "20"
                    FontFamily = "Cascadia Code"
                    Foreground = "DarkBlue" Background = "#FF01BFFF" ></Label >
 
 
-                <Button Click = "formgo_Click"
+        <Button Click = "formgo_Click"
                     Content = "Рассчитать"
                     x:Name = "formgo"
-                    Margin = "477,2,112,380"
+                    Margin = "506,2,112,380"
                     FontSize = "20"
                    FontFamily = "Cascadia Code"
                    Foreground = "DarkBlue" Background = "#FFBFFDC0" />
 
 
-                <Label Content = ""
+        <Label Content = ""
                    Name = "otvet"
-                   Margin = "400,69,10,252"
+                   Margin = "385,66,2,255"
                    FontSize = "20"
                    FontFamily = "Cascadia Code"
-                   Foreground = "DarkBlue" Grid.ColumnSpan = "2" />
+                   Foreground = "DarkBlue" />
 
 
 
 
 
-        <ComboBox Name = "cb1" Margin = "45,63,558,318"  MinWidth = "100" Background = "#FF562A2A" />
+        <ComboBox Name = "cb1" Margin = "45,63,609,318"  MinWidth = "100" Background = "#FF562A2A" />
 
-        <ComboBox Name = "cb2" Margin = "44,126,558,256" MinWidth = "100" />
+        <ComboBox Name = "cb2" Margin = "44,126,609,256" MinWidth = "100" />
 
-        <ComboBox Name = "cb3" Margin = "45,187,558,195" MinWidth = "100" />
+        <ComboBox Name = "cb3" Margin = "45,187,609,195" MinWidth = "100" />
 
-        <ComboBox Name = "cb4" Margin = "44,251,558,127" MinWidth = "100" />
+        <ComboBox Name = "cb4" Margin = "44,251,609,127" MinWidth = "100" />
 
-        <ComboBox Name = "cb5" Margin = "44,316,558,65" MinWidth = "100" />
+        <ComboBox Name = "cb5" Margin = "44,316,609,65" MinWidth = "100" />
 
-        <ComboBox Name = "cb6" Margin = "400,187,189,197" MinWidth = "100" />
+        <ComboBox Name = "cb6" Margin = "400,192,252,192" MinWidth = "100" />
 
-        <ComboBox Name = "cb7" Margin = "400,251,189,127" MinWidth = "100" />
+        <ComboBox Name = "cb7" Margin = "400,251,252,127" MinWidth = "100" />
 
-        <ComboBox Name = "cb8" Margin = "400,316,189,65" MinWidth = "100" />
+        <ComboBox Name = "cb8" Margin = "400,316,252,65" MinWidth = "100" />
 
-        <ComboBox Name = "cb9" Margin = "45,379,558,0" MinWidth = "100" />
+        <ComboBox Name = "cb9" Margin = "45,379,609,0" MinWidth = "100" />
 
-        <ComboBox Name = "cb10" Margin = "400,379,189,0" MinWidth = "100" />
+        <ComboBox Name = "cb10" Margin = "400,379,252,0" MinWidth = "100" />
 
 
-        <TextBox x:Name="tb1" Margin = "210,63,388,318" />
-        <TextBox x:Name="tb2" Margin = "211,126,388,256" />
-        <TextBox x:Name = "tb3" Margin = "210,187,388,195" />
-        <TextBox x:Name = "tb4" Margin = "211,251,388,136" />
-        <TextBox x:Name = "tb5" Margin = "211,316,388,65" />
-        <TextBox x:Name = "tb6" Margin = "210,379,388,0" />
-        <TextBox x:Name = "tb7" Margin = "580,187,21,195" />
-        <TextBox x:Name = "tb8" Margin = "580,244,21,136" />
-        <TextBox x:Name = "tb9" Margin = "580,316,21,65" />
-        <TextBox x:Name = "tb10" Margin = "580,379,21,0" />
+        <TextBox x:Name="tb1" Margin = "236,63,415,318" />
+        <TextBox x:Name="tb2" Margin = "236,126,415,256" />
+        <TextBox x:Name = "tb3" Margin = "236,187,415,195" />
+        <TextBox x:Name = "tb4" Margin = "236,251,415,136" />
+        <TextBox x:Name = "tb5" Margin = "236,316,415,65" />
+        <TextBox x:Name = "tb6" Margin = "236,379,415,0" />
+        <TextBox x:Name = "tb7" Margin = "597,191,54,191" />
+        <TextBox x:Name = "tb8" Margin = "597,253,54,127" />
+        <TextBox x:Name = "tb9" Margin = "597,316,54,65" />
+        <TextBox x:Name = "tb10" Margin = "597,379,54,0" />
 
 
     </Grid>
